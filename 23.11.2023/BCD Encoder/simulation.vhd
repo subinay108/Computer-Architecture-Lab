@@ -32,25 +32,25 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      wait for 80 ns;	
 		i <= "0000000001";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0000000010";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0000000100";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0000001000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0000010000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0000100000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0001000000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0010000000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "0100000000";
-		wait for 100 ns;	
+		wait for 80 ns;	
 		i <= "1000000000";
       wait;
    end process;
